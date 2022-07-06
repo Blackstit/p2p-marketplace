@@ -1,0 +1,9 @@
+[Unit]
+Description=bot-script
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+WorkingDirectory=/var/lib/jenkins/workspace/superapp
+ExecStart=/usr/bin/python3 -m bot.main
+Restart=on-failure

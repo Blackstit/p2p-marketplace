@@ -1,0 +1,4 @@
+Для запуска  необходимо создать пустую MYSQL таблицу и добавить переменную окружения TOKEN
+
+run api: python -m api.main
+run bot: python -m bot.main
